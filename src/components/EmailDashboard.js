@@ -19,35 +19,6 @@ function EmailDashboard() {
 
   return (
     <div className="grid grid-cols-12 gap-4">
-      {/* Sidebar */}
-      <aside className="col-span-3 bg-white dark:bg-gray-800 p-4 rounded shadow">
-        <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">
-          Folders
-        </h2>
-        <ul className="mt-4 space-y-2">
-          <li>
-            <button className="w-full text-left text-gray-800 dark:text-gray-100 hover:underline">
-              Inbox
-            </button>
-          </li>
-          <li>
-            <button className="w-full text-left text-gray-800 dark:text-gray-100 hover:underline">
-              Sent
-            </button>
-          </li>
-          <li>
-            <button className="w-full text-left text-gray-800 dark:text-gray-100 hover:underline">
-              Drafts
-            </button>
-          </li>
-          <li>
-            <button className="w-full text-left text-gray-800 dark:text-gray-100 hover:underline">
-              Trash
-            </button>
-          </li>
-        </ul>
-      </aside>
-
       {/* Email List */}
       <section className="col-span-9 bg-white dark:bg-gray-800 p-4 rounded shadow">
         <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">
